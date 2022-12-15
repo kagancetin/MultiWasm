@@ -30,6 +30,7 @@ dotnet sln add .\MultiWasm.Web\
 3- configure MultiWasm.Web
 
 a- Remove folders and files apart from these "Program.cs" , "MultiWasm.Web.csproj", "appsettings.json", "appsettings.Development.json", "obj", "Properties"
+
 b- Add a project to 
 ```
 cd .\MultiWasm.Web
