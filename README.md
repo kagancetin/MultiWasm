@@ -1,7 +1,7 @@
 # MultiWasm
-Multiple webassembly run together
+Multiple webassembly run together (.net 7)
 
-Dotnet 7
+
 
 Description:
 There is 2 webassembly projects and one blazorserver project for serve webassembly pages.
