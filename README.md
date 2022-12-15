@@ -189,7 +189,7 @@ It will look like this:
 
 b- Remove "http" node under "profiles" node that in Properties/launchSettings.json file. and change name "https" to "MultiWasm.Admin".
 
-c- And last, we change base like this '<base href="/admin/" />' in "wwwroot/index.html" 
+c- And last, we change base like this ``` '<base href="/admin/" />' ``` in "wwwroot/index.html" 
 
 10- Now, we need to route "/admin" path on MultiWasm.Web project. Add below code to Program.js file before "UseRouting()" method.
 ```
