@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ismetcetin\\Desktop\\MultiWasm\\MultiWasm.Client\\MultiWasm.Client.csproj": {}
+    "C:\\Users\\ismetcetin\\Documents\\GitHub\\MultiWasm\\MultiWasm.Client\\MultiWasm.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ismetcetin\\Desktop\\MultiWasm\\MultiWasm.Client\\MultiWasm.Client.csproj": {
+    "C:\\Users\\ismetcetin\\Documents\\GitHub\\MultiWasm\\MultiWasm.Client\\MultiWasm.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ismetcetin\\Desktop\\MultiWasm\\MultiWasm.Client\\MultiWasm.Client.csproj",
+        "projectUniqueName": "C:\\Users\\ismetcetin\\Documents\\GitHub\\MultiWasm\\MultiWasm.Client\\MultiWasm.Client.csproj",
         "projectName": "MultiWasm.Client",
-        "projectPath": "C:\\Users\\ismetcetin\\Desktop\\MultiWasm\\MultiWasm.Client\\MultiWasm.Client.csproj",
+        "projectPath": "C:\\Users\\ismetcetin\\Documents\\GitHub\\MultiWasm\\MultiWasm.Client\\MultiWasm.Client.csproj",
         "packagesPath": "C:\\Users\\ismetcetin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ismetcetin\\Desktop\\MultiWasm\\MultiWasm.Client\\obj\\",
+        "outputPath": "C:\\Users\\ismetcetin\\Documents\\GitHub\\MultiWasm\\MultiWasm.Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ismetcetin\\AppData\\Roaming\\NuGet\\NuGet.Config"

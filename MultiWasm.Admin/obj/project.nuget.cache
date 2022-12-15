@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RBJUT27fCMr8d2B3ah9N1zgQwW9iX2iRoKrk1Fw7M89ndL+ieZx+brGI/l9k5Xr6R/YvFCeDorzMLB6Z0q129A==",
+  "dgSpecHash": "GrF+od+ZSX+433E1Rj9ZjKrTvCN8l5BVEcr2sPUs07G6W3TGwKYABSEVHtohbWHpxBqw/KZWYrRfmtKHDqCKww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ismetcetin\\Desktop\\MultiWasm\\MultiWasm.Admin\\MultiWasm.Admin.csproj",
+  "projectFilePath": "C:\\Users\\ismetcetin\\Documents\\GitHub\\MultiWasm\\MultiWasm.Admin\\MultiWasm.Admin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ismetcetin\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.0\\microsoft.aspnetcore.authorization.7.0.0.nupkg.sha512",
     "C:\\Users\\ismetcetin\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.0\\microsoft.aspnetcore.components.7.0.0.nupkg.sha512",

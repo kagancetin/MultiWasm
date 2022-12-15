@@ -1806,11 +1806,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ismetcetin\\Desktop\\MultiWasm\\MultiWasm.Admin\\MultiWasm.Admin.csproj",
+      "projectUniqueName": "C:\\Users\\ismetcetin\\Documents\\GitHub\\MultiWasm\\MultiWasm.Admin\\MultiWasm.Admin.csproj",
       "projectName": "MultiWasm.Admin",
-      "projectPath": "C:\\Users\\ismetcetin\\Desktop\\MultiWasm\\MultiWasm.Admin\\MultiWasm.Admin.csproj",
+      "projectPath": "C:\\Users\\ismetcetin\\Documents\\GitHub\\MultiWasm\\MultiWasm.Admin\\MultiWasm.Admin.csproj",
       "packagesPath": "C:\\Users\\ismetcetin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ismetcetin\\Desktop\\MultiWasm\\MultiWasm.Admin\\obj\\",
+      "outputPath": "C:\\Users\\ismetcetin\\Documents\\GitHub\\MultiWasm\\MultiWasm.Admin\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ismetcetin\\AppData\\Roaming\\NuGet\\NuGet.Config"

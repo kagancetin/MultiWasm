@@ -1273,11 +1273,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ismetcetin\\Desktop\\MultiWasm\\MultiWasm.Web\\MultiWasm.Web.csproj",
+      "projectUniqueName": "C:\\Users\\ismetcetin\\Documents\\GitHub\\MultiWasm\\MultiWasm.Web\\MultiWasm.Web.csproj",
       "projectName": "MultiWasm.Web",
-      "projectPath": "C:\\Users\\ismetcetin\\Desktop\\MultiWasm\\MultiWasm.Web\\MultiWasm.Web.csproj",
+      "projectPath": "C:\\Users\\ismetcetin\\Documents\\GitHub\\MultiWasm\\MultiWasm.Web\\MultiWasm.Web.csproj",
       "packagesPath": "C:\\Users\\ismetcetin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ismetcetin\\Desktop\\MultiWasm\\MultiWasm.Web\\obj\\",
+      "outputPath": "C:\\Users\\ismetcetin\\Documents\\GitHub\\MultiWasm\\MultiWasm.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ismetcetin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1292,11 +1292,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\ismetcetin\\Desktop\\MultiWasm\\MultiWasm.Admin\\MultiWasm.Admin.csproj": {
-              "projectPath": "C:\\Users\\ismetcetin\\Desktop\\MultiWasm\\MultiWasm.Admin\\MultiWasm.Admin.csproj"
+            "C:\\Users\\ismetcetin\\Documents\\GitHub\\MultiWasm\\MultiWasm.Admin\\MultiWasm.Admin.csproj": {
+              "projectPath": "C:\\Users\\ismetcetin\\Documents\\GitHub\\MultiWasm\\MultiWasm.Admin\\MultiWasm.Admin.csproj"
             },
-            "C:\\Users\\ismetcetin\\Desktop\\MultiWasm\\MultiWasm.Client\\MultiWasm.Client.csproj": {
-              "projectPath": "C:\\Users\\ismetcetin\\Desktop\\MultiWasm\\MultiWasm.Client\\MultiWasm.Client.csproj"
+            "C:\\Users\\ismetcetin\\Documents\\GitHub\\MultiWasm\\MultiWasm.Client\\MultiWasm.Client.csproj": {
+              "projectPath": "C:\\Users\\ismetcetin\\Documents\\GitHub\\MultiWasm\\MultiWasm.Client\\MultiWasm.Client.csproj"
             }
           }
         }
