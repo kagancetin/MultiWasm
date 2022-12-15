@@ -31,7 +31,7 @@ dotnet sln add .\MultiWasm.Web\
 
 a- Remove folders and files apart from these "Program.cs" , "MultiWasm.Web.csproj", "appsettings.json", "appsettings.Development.json", "obj", "Properties"
 
-b- Add a project to 
+b- Add a package to MultiWasm.Web
 ```
 cd .\MultiWasm.Web
 dotnet add package Microsoft.AspNetCore.Components.WebAssembly.Server
