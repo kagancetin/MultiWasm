@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MultiWasm.Admin.props" />
+</Project>
