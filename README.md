@@ -1,10 +1,10 @@
 # MultiWasm
-Multiple webassembly run together (.net 7)
+Multiple blazor webassembly projects run together and same port (.net 7)
 
 
 
 Description:
-There is 2 webassembly projects and one blazorserver project for serve webassembly pages.
+There is 2 blazor webassembly projects and one blazorserver project for serve blazor webassembly pages.
 
 How to use: 
 Clone repo and run MultiWasm.Web
@@ -103,7 +103,7 @@ d- Remove "http" node under "profiles" node that in Properties/launchSettings.js
 }
 ```
 
-4- Time to create our base webassembly project. 
+4- Time to create our base blazor webassembly project. 
 
 ```
 cd ..
@@ -163,7 +163,7 @@ dotnet run --project .\MultiWasm.Web\
 8- Now go https://localhost:(Your port). It's work! Let's continue.
 (If you see error something could gone wrong. Check the orders.)
 
-9- It's time to create our second webassembly project and reference this.
+9- It's time to create our second blazor webassembly project and reference this.
 
 ```
 dotnet new blazorwasm -o MultiWasm.Admin
