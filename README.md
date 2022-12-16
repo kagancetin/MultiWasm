@@ -1,10 +1,10 @@
 # MultiWasm
-Multiple blazor webassembly projects run together and same port (.net 7)
+Multiple Blazor web assembly projects run together on the same port (.net 7)
 
 
 
 Description:
-There is 2 blazor webassembly projects and one blazorserver project for serve blazor webassembly pages.
+There are two Blazor web assembly projects and one Blazorserver project to serve Blazor web assembly pages.
 
 How to use: 
 Clone repo and run MultiWasm.Web
@@ -27,7 +27,7 @@ dotnet new blazorserver -o MultiWasm.Web
 dotnet sln add .\MultiWasm.Web\
 ```
 
-3- configure MultiWasm.Web
+3- Configure MultiWasm.Web
 
 a- Remove folders and files apart from these "Program.cs" , "MultiWasm.Web.csproj", "appsettings.json", "appsettings.Development.json", "obj", "Properties"
 
@@ -36,7 +36,7 @@ b- Add a package to MultiWasm.Web
 cd .\MultiWasm.Web
 dotnet add package Microsoft.AspNetCore.Components.WebAssembly.Server
 ```
-c- Remove all codes in Program.js and paste that
+c- Remove all the codes in Program.js and paste that
 
 ```
 var builder = WebApplication.CreateBuilder(args);
@@ -71,7 +71,7 @@ app.MapFallbackToFile("/index.html");
 app.Run();
 ```
 
-d- Remove "http" node under "profiles" node that in Properties/launchSettings.json file. and change name "https" to "MultiWasm.Web". It will look like this.
+d- Remove "http" node under "profiles" node that in Properties/launchSettings.json file and change it's name "https" to "MultiWasm.Web". It will look like this.
 ```
 {
   "iisSettings": {
@@ -113,7 +113,7 @@ dotnet sln add .\MultiWasm.Client\
 
 5- Configure MultiWasm.Client
 
-a- Remove "http" node under "profiles" node that in Properties/launchSettings.json file. and change name "https" to "MultiWasm.Client". It will look like this.
+a- Remove "http" node under "profiles" node that in Properties/launchSettings.json file and change it's name "https" to "MultiWasm.Client". It will look like this.
 
 ```
 {
@@ -148,13 +148,13 @@ a- Remove "http" node under "profiles" node that in Properties/launchSettings.js
 }
 ```
 
-6- Add MultiWasm.Client reference to MultiWasm.Web
+6- Add MultiWasm.Client reference to MultiWasm.Web.
 
 ```
 dotnet add .\MultiWasm.Web\ reference .\MultiWasm.Client\ 
 ```
 
-7- It's time to check that would worked
+7- It's time to check that would worked.
 ```
 dotnet restore
 dotnet build
@@ -163,7 +163,7 @@ dotnet run --project .\MultiWasm.Web\
 8- Now go https://localhost:(Your port). It's work! Let's continue.
 (If you see error something could gone wrong. Check the orders.)
 
-9- It's time to create our second blazor webassembly project and reference this.
+9- It's time to create our second Blazor web assembly project and reference this.
 
 ```
 dotnet new blazorwasm -o MultiWasm.Admin
@@ -173,7 +173,7 @@ dotnet add .\MultiWasm.Web\ reference .\MultiWasm.Admin\
 
 10- Configure MultiWasm.Admin
 
-a- First of all we need to add below code to "MultiWasm.Admin.csproj" file
+a- First, we must add the following code to the "MultiWasm.Admin.csproj" file.
 ```
 <StaticWebAssetBasePath>admin</StaticWebAssetBasePath>
 ```
@@ -187,9 +187,9 @@ It will look like this:
   </PropertyGroup>
 ```
 
-b- Remove "http" node under "profiles" node that in Properties/launchSettings.json file. and change name "https" to "MultiWasm.Admin".
+b- Remove "http" node under "profiles" node that in Properties/launchSettings.json file and change name it's "https" to "MultiWasm.Admin".
 
-c- And last, we change base like this ``` <base href="/admin/" /> ``` in "wwwroot/index.html" 
+c- And last, we need to change base tags href attribure like this ``` <base href="/admin/" /> ``` in "wwwroot/index.html" 
 
 10- Now, we need to route "/admin" path on MultiWasm.Web project. Add below code to Program.js file before "UseRouting()" method.
 ```
