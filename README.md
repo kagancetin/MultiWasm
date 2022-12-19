@@ -4,7 +4,7 @@ Multiple Blazor web assembly projects run together on the same port (.net 7)
 
 
 Description:
-There are two Blazor web assembly projects and one Blazorserver project to serve Blazor web assembly pages.
+There are two Blazor web assembly projects (Client and Admin) and one Blazorserver project (Web) to serve Blazor web assembly pages.
 
 How to use: 
 Clone repo and run MultiWasm.Web
